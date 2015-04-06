@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/commonplace"]
+	path = wp-content/themes/commonplace
+	url = git@github.com:common-place-dot-org/commonplace.git
