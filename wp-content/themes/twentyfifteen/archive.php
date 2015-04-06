@@ -21,7 +21,13 @@ get_header(); ?>
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		<?php if ( have_posts() ) : ?>
+
+
+		<?php
+		modify_categories_dropdown();
+
+
+		 if ( have_posts() ) : ?>
 
 			<header class="page-header">
 				<?php
